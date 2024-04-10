@@ -5,7 +5,7 @@ import tkinter.messagebox
 # Window defined
 root = Tk()
 
-root.iconbitmap('tic-tac-toe.ico')
+root.iconbitmap('playimage.png')
 
 root.title('Tic-Tac-Toe')
 
@@ -26,8 +26,8 @@ btn7 = StringVar()
 btn8 = StringVar()
 btn9 = StringVar()
 
-xPhoto = PhotoImage(file='your_image_name.extension')
-oPhoto = PhotoImage(file='your_image_name.extension')
+xPhoto = PhotoImage(file='x.png')
+oPhoto = PhotoImage(file='o.png')
 
 
 
